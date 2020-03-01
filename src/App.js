@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { Greet } from './components/Greet'
-import Welcome from './components/Welcome'
-class App extends Component{
-  render() {
-    return (
-      <div className="App">
-        <Greet />
-        <Welcome />
-      </div>
-    )
-  }
+import Meal from './components/Meal.js';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Choose your Meal !!</h1>
+        <Meal type="Breakfast"/>
+        <Meal type="Dinner"/>
+      </header>
+    </div>
+  );
 }
 
 export default App;
