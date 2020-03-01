@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Breakfast(props) {
+function Menu(props) {
     return (
         <div>
            {
@@ -22,4 +22,4 @@ function Breakfast(props) {
     )
 }
 
-export default Breakfast
+export default Menu
