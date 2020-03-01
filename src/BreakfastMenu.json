@@ -1,0 +1,12 @@
+{
+    "Options": [
+        {
+            "mainDish": "Idli",
+            "curries": ["Sambar","Chutney"]
+        },
+        {
+            "mainDish": "Appam",
+            "curries":["Chicken curry", "Egg Curry", "Kadala Curry"]  
+        }
+    ]
+}
